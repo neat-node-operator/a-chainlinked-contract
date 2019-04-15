@@ -1,0 +1,8 @@
+draw_set_color(make_color_rgb(143,171,219))
+draw_roundrect(333,15,690,63,false)
+draw_set_font(font_score)
+draw_set_color(c_black)
+draw_set_halign(fa_center)
+draw_text(522,21,string(scoreCurrent)+" / "+string(scoreTotal))
+draw_set_halign(fa_left)
+draw_set_font(-1)
